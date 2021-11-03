@@ -1,0 +1,60 @@
+.regbutton {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.form-group {
+  color: white;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.form-groupcep {
+  padding-top: 20px;
+}
+.form-check-input {
+  margin-bottom: 20px;
+}
+
+.form-group1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.inputendereco {
+  padding-top: 20px;
+}
+.form-check {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.loginbox {
+  color: white;
+  padding-top: 20px;
+  /* padding-left: 10px;
+    padding-right: 10px; */
+}
+
+.loginbox1 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.loginbox2 {
+  padding-bottom: 20px;
+}
+
+.containerregistro {
+  max-width: auto;
+  min-width: auto;
+}
+
+.containerlogin {
+  max-width: auto;
+  min-width: auto;
+}
