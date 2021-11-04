@@ -17,10 +17,11 @@
   filter:opacity();
   filter:grayscale(0.5)
   }
-  
+  body {
+    background-color: rgb(23, 31, 35);
+  }
   main {
     padding: 0rem;
-    background-color: rgb(23, 31, 35);
     color:rgb(56, 29, 29);
     height: 100vh;
     background-position: center;
