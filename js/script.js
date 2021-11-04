@@ -64,9 +64,6 @@ botao.addEventListener('click', (event) => {
   list.appendChild(par);
   DivImage.appendChild(img);
 
-
-
-li.innerText = `Nome: ${field1.value}, Poder: ${field2.value}`;
  img.setAttribute("src", campo3.value);
 
 
