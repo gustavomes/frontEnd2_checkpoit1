@@ -52,11 +52,3 @@ li.innerText = `Nome: ${field1.value}, Poder: ${field2.value}`;
 })
 
 
-
-// dica para adicionar imagem
-
-
-
-
-
-list.appendChild(img);

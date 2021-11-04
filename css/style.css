@@ -34,6 +34,7 @@
     font-family: serif;
     color: rgb(152, 121, 74);
     text-align: center;
+    filter:drop-shadow(0px 0px 10px rgb(53, 106, 112));
   }
   
   .flex {
@@ -52,8 +53,6 @@
     border-radius: 0.3rem;
     background-color: rgb(152, 121, 74);
     color: rgb(228, 228, 228);
-    font-size: 1rem;
-    font-weight: 500;
     margin-bottom: 0.5rem;
     margin-top: 1.5rem;
   }
@@ -78,6 +77,8 @@
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
+      filter:drop-shadow(0px 0px 10px rgb(53, 106, 112));
+     
       
   }
   #divImg {
@@ -91,8 +92,10 @@
     width: 20vw;
     background-color: rgba(245, 245, 220, 0.659);
     padding: 0.7rem;
-    border-radius: 0.3rem
+    border-radius: 0.3rem;
+    min-width: 30rem;
   }
+
 
  #lista {
       display: flex;
@@ -104,6 +107,7 @@
     color: rgb(152, 121, 74);
     padding: 0.7rem;
     font-family: roboto, "Helvetica Neue",;
+    filter:drop-shadow(0px 0px 10px rgb(53, 106, 112));
 
 }
 
@@ -111,6 +115,7 @@ label {
     color: rgb(152, 121, 74);
     padding: 0.3rem;
     font-family: roboto, "Helvetica Neue",;
+    filter:drop-shadow(0px 0px 10px rgb(151, 205, 211));
 }
 
 #campeao {
@@ -119,12 +124,38 @@ label {
     margin-bottom: 0.3rem;
 }
 
-#fim {
-    display: flex;
-    justify-content: center;
+
+@media screen and (max-width: 600px) {
+  header img {
+        width: 80vw;
+        height: 30vh;
+
+    }
 }
 
-#fim img{
-    width: 20%;
+@media screen and (max-width: 600px) {
+  h1 {
+       font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+ form{
+       padding: 0.7rem 6rem 7rem 6rem;    }
+}
+
+@media screen and (max-width: 400px) {
+  header img {
+        width: 70vw;
+        height: 20vh;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+ form{
+       padding: 0.7rem 5rem 7rem 5rem;    }
 }
   
+
+
