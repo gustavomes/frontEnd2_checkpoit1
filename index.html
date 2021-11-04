@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>League of Legends </title>
+</head>
+<body>
+
+  <header>
+<img id="logo" src="./img/A_league.png" alt="">
+
+  </header>
+<main>
+  <h1>Escolha seu Campeão</h1>
+  <div id="princ" class="main flex">
+  
+
+    <form class="flex" action="/consultar">
+      <label for="campeao" id="campeao"> Nome do Campeão</label>
+      <input type="text" name="campeao" id="field1" placeholder="Nome">
+      <label for="poder"> Poder </label>
+      <input type="text" name="poder" id="field2" placeholder="poder">
+      <label for="poder"> Imagem </label>
+      <input type="text" name="poder" id="imgUrl" placeholder="url da imagem">
+
+<div>
+        <label for="rota">Rotas:</label>
+        <input type="radio" name="rota" value="Top">Top</input>
+        <input type="radio" name="rota" value="Mid" checked>Mid</input>
+        <input type="radio" name="rota" value="Bot">Bot</input>
+        <input type="radio" name="rota" value="Jungle">Jungle</input>
+      </div>
+      
+      <div>
+        <input type="checkbox" id="condicoes" checked> Pode mudar de rota </input>
+        
+      </div>
+
+      <input type="submit" id="btn" value="mostrar" class="button">
+     
+    </form>
+
+ 
+  
+  </div>
+
+<section id="columm">
+<div id="divImg">
+</div>
+  <ol id="lista">
+
+  </ol>
+
+<p></p>
+</section>
+
+
+
+</main> 
+
+  <script src="./js/script.js"></script>
+  
+</body>
+</html>
