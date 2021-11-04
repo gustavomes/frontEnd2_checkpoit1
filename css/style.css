@@ -84,7 +84,9 @@
   #divImg {
     margin-top: 2rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 
   }
   
@@ -96,18 +98,22 @@
     min-width: 30rem;
   }
 
+#lista {
+  text-align: center;
+}
 
- #lista {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-  }
 
   #lista li{
     color: rgb(152, 121, 74);
     padding: 0.7rem;
     font-family: roboto, "Helvetica Neue",;
     filter:drop-shadow(0px 0px 10px rgb(53, 106, 112));
+    list-style: none;
+  }
+  
+  #lista li:hover {
+    background-color: rgb(245, 245, 220);
+    
 
 }
 
@@ -122,6 +128,13 @@ label {
     font-size: 1rem;
     font-weight: bold;
     margin-bottom: 0.3rem;
+}
+
+#column {
+    display: flex;
+    flex-direction: column;
+ 
+    
 }
 
 
