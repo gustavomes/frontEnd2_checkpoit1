@@ -1,14 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./frontEnd2_checkpoit1/css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>League of Legends </title>
 </head>
 <body>
-    for
-    <script src="./frontEnd2_checkpoit1/js/form.js"></script>
+
+  <header>
+<img id="logo" src="./img/A_league.png" alt="">
+
+  </header>
+<main>
+  <h1>Escolha seu Campeão</h1>
+  <div id="princ" class="main flex">
+  
+
+    <form class="flex" action="/calcular">
+      <label for="campeao" id="campeao"> Nome do Campeão</label>
+      <input type="text" name="campeao" id="field1" placeholder="Nome">
+      <label for="poder"> Poder </label>
+      <input type="text" name="poder" id="field2" placeholder="poder">
+      <label for="poder"> Imagem </label>
+      <input type="text" name="pwd" id="imgUrl" placeholder="url da imagem">
+
+      <input type="submit" id="btn" value="mostrar" class="button">
+     
+    </form>
+
+  
+  </div>
+
+<div id="divImg">
+    <ol id="lista">
+
+    </ol>
+
+  
+
+</div>
+
+</main> 
+
+  <script src="./js/script.js"></script>
+  
 </body>
 </html>
