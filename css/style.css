@@ -9,19 +9,28 @@
     text-align: center;
   }
 
-  
-
-  header img {
+  #logo {
   height: 15rem;
   margin-top: 4rem;
-  filter:opacity();
   filter:grayscale(0.5)
   }
+
+.nav-link{
+  color: rgb(177, 116, 24) !important;
+  font-size: 1.3rem;
+}
+
+.active{
+  color: rgb(15, 11, 4) !important;
+  background-color: rgb(139, 138, 143) !important;
+}
+
   body {
     background-color: rgb(23, 31, 35);
     color:  rgb(152, 121, 74);
   }
   main {
+    background-color: rgb(23, 31, 35);
     padding: 0rem;
     height: 100vh;
     background-position: center;
