@@ -9,23 +9,51 @@
     text-align: center;
   }
 
-  
-
-  header img {
+  #logo {
   height: 15rem;
   margin-top: 4rem;
-  filter:opacity();
   filter:grayscale(0.5)
   }
+
+  #Mulher{
+    position: absolute;
+    left: 3rem;
+    top: 10rem;
+    height: 49rem;
+  }
+
+  #Homem{
+    position: absolute;
+    height: 35rem;
+    right: 7rem;
+  }
+
+.nav-link{
+  color: rgb(177, 116, 24) !important;
+  font-size: 1.3rem;
+}
+
+.nav-link:hover {
+  filter:drop-shadow(0px 0px 10px rgb(213, 216, 160));}
+
+.active{
+  color: rgb(15, 11, 4) !important;
+  background-color: rgb(139, 138, 143) !important;
+}
+
   body {
     background-color: rgb(23, 31, 35);
     color:  rgb(152, 121, 74);
+    
   }
   main {
+    background-color: rgb(23, 31, 35);
     padding: 0rem;
     height: 100vh;
     background-position: center;
     color:  rgb(152, 121, 74);
+    height: 100%;
+    padding-bottom: 3rem;
     
   }
   
@@ -93,7 +121,7 @@
 
 
   }
-  #divImg {
+  article {
     margin-top: 3rem;
     display: flex;
     flex-direction: column;
@@ -109,20 +137,22 @@
 
   }
   
-  #divImg img {
+article img {
     width: 20vw;
     background-color: rgba(245, 245, 220, 0.659);
     padding: 0.7rem;
     border-radius: 0.3rem;
-    min-width: 30rem;
+    min-width: 18rem;
+    
   }
 
-#lista {
+article{
   text-align: center;
+  
 }
 
 
-  #lista li{
+ article {
     color: rgb(152, 121, 74);
     padding: 0.7rem;
     font-family: roboto, "Helvetica Neue",;
@@ -168,7 +198,42 @@ p {
     
 }
 
+@media(max-width: 1515px){
+  #Mulher{
+    left: 0rem;
+    top: 18rem;
+    height: 40rem;
+  }
 
+  #Homem{
+    height: 28rem;
+    right: 3rem;
+    top: 30rem;
+  }
+}
+
+@media(max-width: 1115px){
+  #Mulher{
+    left: 0rem;
+    top: 22rem;
+    height: 30rem;
+  }
+
+  #Homem{
+    height: 22rem;
+    right: 0rem;
+    top: 31rem;
+  }
+}
+
+@media(max-width: 935px){
+  #Mulher{
+    height: 0rem;
+  }
+  #Homem{
+    height: 0rem;
+  }
+}
 
 @media screen and (max-width: 600px) {
   header img {
@@ -200,7 +265,16 @@ p {
 @media screen and (max-width: 600px) {
  form{
        padding: 0.7rem 5rem 7rem 5rem;    }
+
+       
 }
+
+@media screen and (min-width: 600px) {
+  article img{
+        min-width: 30rem;    }
+ 
+        
+ }
+   
+ 
   
-
-

@@ -3,15 +3,14 @@
 let main = document.querySelector ('#princ');
 let field1 = document.querySelector('#field1');
 let field2 = document.querySelector('#field2');
-let campo3 = document.getElementById("imgUrl");
+let campo3 = document.getElementById("imgUrl");//acho que é erro
 let logo = document.querySelector('#logo');
 let botao = document.getElementById("btn")
 let DivImage = document.getElementById ("divImg");
-let list = document.querySelector('ol');  
+//let list = document.querySelector('ol');  
 let cond = document.querySelector('input[type=\'checkbox\']');
-
 let par = document.querySelector('p');
-
+let sec = document.querySelector('section');
 // pegando todos os inputs que são type=radio
 let rotas = document.querySelectorAll('input[type=\'radio\']');
 
@@ -48,21 +47,22 @@ botao.addEventListener('click', (event) => {
 
   // Mensagem: Matricula efetivada com sucesso!
   // Nome: ??? Sobrenome: ??? Periodo: ??? Condições: Aceitou/Não Aceitou
-  par.innerText = `O campeão ${field1.value}, sempre usa 
-  ${field2.value}, pela ${rota} lane, e  ${condTxt}.`
+  //par.innerText = `O campeão ${field1.value}, sempre usa 
+  //${field2.value}, pela ${rota} lane, e  ${condTxt}.`
   
   
   //Criação dos Elementos
-
-  let div = document.createElement("div");
-  let li = document.createElement('li');
+  let art = document.createElement('article')
+  //let div = document.createElement("div");
+  //let li = document.createElement('li');
   let img = document.createElement("img");
-
+  let p1 = document.createElement('p');
+  p1.innerText = `O campeão ${field1.value}, sempre usa ${field2.value}, pela ${rota} lane, e  ${condTxt}`;
 
   //localização dos elementos
-  main.appendChild(div) 
-  list.appendChild(par);
-  DivImage.appendChild(img);
+  sec.appendChild(art) 
+  art.appendChild(p1);
+  art.appendChild(img);
 
  img.setAttribute("src", campo3.value);
 
