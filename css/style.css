@@ -18,11 +18,13 @@
   #Mulher{
     position: absolute;
     left: 3rem;
-    top: 13rem;
+    top: 10rem;
+    height: 49rem;
   }
 
   #Homem{
     position: absolute;
+    height: 35rem;
     right: 7rem;
   }
 
