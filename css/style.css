@@ -193,7 +193,42 @@ p {
     
 }
 
+@media(max-width: 1515px){
+  #Mulher{
+    left: 0rem;
+    top: 18rem;
+    height: 40rem;
+  }
 
+  #Homem{
+    height: 28rem;
+    right: 3rem;
+    top: 30rem;
+  }
+}
+
+@media(max-width: 1115px){
+  #Mulher{
+    left: 0rem;
+    top: 22rem;
+    height: 30rem;
+  }
+
+  #Homem{
+    height: 22rem;
+    right: 0rem;
+    top: 31rem;
+  }
+}
+
+@media(max-width: 935px){
+  #Mulher{
+    height: 0rem;
+  }
+  #Homem{
+    height: 0rem;
+  }
+}
 
 @media screen and (max-width: 600px) {
   header img {
